@@ -12,7 +12,7 @@ pipeline {
         }
         stage('Checkout Source Code') {
             steps {
-                echo 'Cloning source code'
+                echo 'Cloning source code...'
                 script {
                     checkout("https://github.com/SudhirVS/Docker-Zero-to-Hero.git","main")
                 }
